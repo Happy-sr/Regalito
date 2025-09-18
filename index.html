@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+    <title>Para ti — 💖</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="wrap">
+      <h1>Para mi amor 💖</h1>
+      <div class="typed" id="typed"></div>
+      <div id="controls">
+        <button class="primary" onclick="surprise()">✨ Sorpresa ✨</button>
+      </div>
+      <div class="sad" id="sad">😔</div>
+      <div class="gallery">
+        <img src="src/amor1.jpg" alt="foto1" />
+        <img src="src/amor2.jpg" alt="foto2" />
+        <img src="src/amor3.jpg" alt="foto3" />
+      </div>
+    </div>
+    <div class="floating" id="floating"></div>
+
+    <script src="js/script.js"></script>
+    <script>
+      // Mensajes de index
+      const messages = [
+        "Hola, hermosa. Quería decirte que cada día a tu lado hace todo más fácil y más bonito.",
+        "Me encanta cómo te ríes, cómo hablas, cómo caminas, cómo amas, cómo celas, cómo comes, cómo eres y la forma en que haces que los pequeños momentos sean grandes recuerdos.",
+        "Gracias por ser mi enamorada, mi amiga y mi unica mujer. Te adoro y te amo mi AMOR.",
+        "¿Y sabes?, Tengo una sorpresa para ti. Pulsa el botón ✨Sorpresa✨, Por favor di que si :c",
+      ];
+      startTyping(messages);
+    </script>
+  </body>
+</html>
